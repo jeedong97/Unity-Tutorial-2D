@@ -17,6 +17,7 @@ public class StudyComponent : MonoBehaviour
 
         Debug.Log($"Mesh 데이터 : {obj.GetComponent<MeshFilter>().mesh}");
         Debug.Log($"Material 데이터 : {obj.GetComponent<MeshRenderer>().material}");
+        obj.GetComponent<MeshRenderer>().enabled = false;
     }
 
 }

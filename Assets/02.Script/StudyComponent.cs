@@ -10,6 +10,7 @@ public class StudyComponent : MonoBehaviour
     void Start()
     {
         CreateCube();
+        obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
   }
 
     public void CreateCube()
